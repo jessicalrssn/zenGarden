@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto:wght@300&display=swap");
+/*--footer section--*/
+/*archives and recourses footer section*/
+.wrapper {
+  color: #84d9d9;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+div.wrapper h3 {
+  color: white;
+}
+
+.wrapper a:link {
+  color: #84d9d9;
+}
+
+div.design-archives, div.zen-resources {
+  border-top: 15px solid #f2b807;
+  padding-left: 50px;
+  background-color: #023a40;
+}
+
+div.design-archives h3,
+div.zen-resources h3 {
+  text-transform: uppercase;
+}
+
+div.design-archives ul,
+div.zen-resources ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/*select a design section*/
+h3.select {
+  background-color: #84d9d9;
+  font-size: 2em;
+  margin-right: 10%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px 15px 15px 40px;
+  border-radius: 0 80px 80px 0;
+  color: white;
+}
+
+.design-selection {
+  line-height: 3em;
+  background-color: #023a40;
+  padding: 30px 30px 30px 0px;
+  width: 20%;
+  /*this takes it out of the footer grid */
+  position: absolute;
+  top: 70%;
+}
+
+.design-selection ul {
+  list-style: none;
+}
+
+footer {
+  margin-left: 50px;
+}
+
+.requirements h3 {
+  background-color: #84d9d9;
+  font-size: 2em;
+  margin-right: 70%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px 15px 15px 40px;
+  text-transform: uppercase;
+  border-radius: 0 80px 80px 0;
+  color: white;
+}
+
+.requirements p {
+  margin-left: 50px;
+}
+
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+/* basic elements */
+.page-wrapper {
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 1em lato, sans-serif;
+  line-height: 1.88889;
+  color: #555753;
+  margin: 0;
+}
+
+p {
+  margin-top: 0;
+  text-align: justify;
+}
+
+h3 {
+  font: normal 1.4em lato, sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  color: #7D775C;
+}
+
+a:link {
+  font-weight: bold;
+  text-decoration: none;
+  color: #7d775c;
+}
+
+a:visited {
+  font-weight: bold;
+  text-decoration: none;
+  color: #D4CDDC;
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: underline;
+  color: #f2b807;
+}
+
+abbr {
+  border-bottom: none;
+}
+
+/* specific divs */
+.intro {
+  background: url(office-background.png) no-repeat top left;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  padding-top: 12rem;
+  align-items: flex-end;
+  color: white;
+  text-align: right;
+}
+
+h1 {
+  color: #F1B807;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  margin: 0;
+  padding-right: 4rem;
+}
+
+.intro h2 {
+  font-size: 5rem;
+  font-weight: 400;
+  padding: 1rem 4rem 2rem 55rem;
+  line-height: 5.2rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.summary p:nth-child(1) {
+  padding-left: 55rem;
+  padding-bottom: 4rem;
+  text-align: right;
+  padding-right: 4rem;
+}
+
+.summary p:nth-child(2) {
+  text-align: right;
+  padding: 2rem;
+  font-size: 25px;
+  background-color: #023A40;
+  /*border-right: 5rem solid $dark-blue;*/
+  padding-right: 4rem;
+  margin-left: 55rem;
+}
+
+.summary a:link {
+  color: #F2B807;
+}
+
+/* Below the hero image */
+.preamble {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  background-color: white;
+  border-top: 1rem solid #f2b807;
+  margin-top: -2rem;
+  padding-top: 4rem;
+}
+
+.preamble h3 {
+  grid-column: 7/12;
+  color: #84d9d9;
+  font-weight: 700;
+  font-size: 2em;
+  text-align: center;
+}
+
+.preamble p {
+  grid-column: 7/12;
+  color: #555753;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+/* Third Section */
+.explanation {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.explanation h3 {
+  grid-column: 7/12;
+  color: #84d9d9;
+  font-weight: 700;
+  font-size: 2em;
+  text-align: center;
+}
+
+.explanation p {
+  grid-column: 7/12;
+  color: #555753;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.participation {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin-top: 7rem;
+}
+
+.participation h3 {
+  grid-column: 1;
+  transform: rotate(90deg);
+  color: #f2b807;
+  font-weight: 900;
+  font-size: 6rem;
+  position: absolute;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+}
+
+.participation p {
+  grid-column: 5/13;
+  color: #555753;
+  text-align: center;
+  padding: 2rem 4rem;
+  color: white;
+  margin-bottom: 0;
+}
+
+.main div:nth-child(2) {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-image: linear-gradient(white, white), linear-gradient(#023a40, #023a40), linear-gradient(#023a40, #023a40), linear-gradient(#023a40, #023a40);
+  background-size: 30% 100%, 35% 100%, 75% 100%, 100% 100%;
+  background-repeat: no-repeat;
+}
+
+/*benefits box*/
+.benefits {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  color: white;
+  text-align: center;
+}
+
+.benefits h3 {
+  grid-column: 5/9;
+  color: white;
+  background-color: rgba(2, 58, 64, 0.8392156863);
+  padding: 2rem 4rem;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.benefits p {
+  grid-column: 5/9;
+  background-color: rgba(2, 58, 64, 0.8392156863);
+  padding: 2rem 4rem;
+}
+
+/* For smaller devices */
+@media screen and (max-width: 600px) {
+  .participation h3 {
+    transform: rotate(0deg);
+    font-size: 2.5rem;
+    margin-top: -8rem;
+    padding: 10px;
+  }
+
+  .participation p {
+    padding: 0.5rem 4rem;
+  }
+
+  .benefits {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    color: white;
+    text-align: center;
+  }
+
+  .benefits h3 {
+    grid-column: 1/13;
+    padding: 2rem 1rem;
+  }
+
+  .benefits p {
+    grid-column: 1/13;
+    background-color: rgba(2, 58, 64, 0.8392156863);
+    padding: 2rem 4rem;
+  }
+
+  .requirements h3 {
+    margin-right: 20%;
+    padding: 15px 15px 15px 20px;
+  }
+
+  .requirements p {
+    margin: 20px;
+  }
+
+  .design-selection {
+    position: static;
+    grid-column: span 3;
+    width: 100%;
+  }
+
+  .summary p:nth-child(1) {
+    padding-left: 5rem;
+  }
+
+  .summary p:nth-child(2) {
+    margin-left: 5rem;
+  }
+
+  .intro h2 {
+    padding-left: 5rem;
+  }
+
+  div.design-archives, div.zen-resources {
+    padding-left: 20px;
+    width: 100%;
+  }
+
+  .preamble, .explanation {
+    display: block;
+    padding: 20px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

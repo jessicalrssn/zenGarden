@@ -1,0 +1,63 @@
+/*--footer section--*/
+@use 'variables' as *;
+
+/*archives and recourses footer section*/
+.wrapper {
+    color: $light-blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+div.wrapper h3{
+    color: white; 
+}
+.wrapper a:link{
+    color: $light-blue;
+}
+
+div.design-archives, div.zen-resources{
+    border-top: 15px solid $yellow;
+    padding-left: 50px;
+    background-color: $dark-blue
+}
+
+div.design-archives h3,
+div.zen-resources h3{
+text-transform: uppercase;
+}
+
+div.design-archives ul,
+div.zen-resources ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+/*select a design section*/
+h3.select{
+    background-color: $light-blue;
+    font-size: 2em;
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px 15px 15px 40px;
+    border-radius: 0 80px 80px 0;
+    color: white;
+}
+.design-selection{
+line-height: 3em;
+background-color: $dark-blue;
+padding: 30px 30px 30px 0px;
+width: 20%;
+/*this takes it out of the footer grid */
+position: absolute;
+top: 70%;
+}
+
+.design-selection ul{
+    list-style: none;
+}
+
+footer {
+    margin-left: 50px;
+
+}

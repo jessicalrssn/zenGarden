@@ -1,0 +1,21 @@
+/*grid for the whole page*/
+.page-wrapper {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+.intro{
+    grid-column: 1/8;
+    grid-row: 1/2;
+}
+
+
+#zen-resources{
+    grid-column: 4/8;
+    grid-row: 3/4;
+}
+#design-archives{
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+.design-selection{grid-column:1/3;
+grid-row: 2/3;}
