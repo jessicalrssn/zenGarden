@@ -295,13 +295,13 @@ h1 {
 @media screen and (max-width: 1100px) {
   .participation h3 {
     transform: rotate(0deg);
-    font-size: 3rem;
+    font-size: 2.3rem;
     margin-top: -8rem;
     padding: 10px;
   }
 
   .participation p {
-    padding: 0.5rem 4rem;
+    padding: 0.5rem 1rem;
   }
 
   .benefits {
