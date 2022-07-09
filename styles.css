@@ -53,9 +53,6 @@ h3.select {
   position: absolute;
   top: 70%;
 }
-.design-selection h3{
-  padding-left: 30px;
-}
 
 .design-selection ul {
   list-style: none;
@@ -327,7 +324,7 @@ h1 {
   }
 
   .requirements h3 {
-    margin-right: 20%;
+    margin-right: 10%;
     padding: 15px 15px 15px 20px;
   }
 
