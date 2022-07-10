@@ -16,7 +16,7 @@
 /* basic elements */
 
 .page-wrapper{
-    max-width: 1700px;
+    max-width: 1600px;
         margin: 0 auto;
 }
 html {
@@ -26,7 +26,7 @@ html {
 
 body {
     font: 1em lato, sans-serif;
-    line-height: 1.88889;
+    line-height: 1.8;
     color: #555753;
     margin: 0;
 }
@@ -225,6 +225,7 @@ h1 {
     grid-column: 5/9;
     background-color: #023a40d6;
     padding: 2rem 4rem;
+    text-align: center;
 }
 
 /* For smaller devices */
@@ -245,7 +246,7 @@ h1 {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
         color: white;
-        text-align: center;
+    
     }
 
     .benefits h3 {
